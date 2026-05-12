@@ -7,6 +7,8 @@ Quantifies *how* teams organize spatially on special teams — formation shape,
 coverage gaps, defensive collapse speed, and PP unit efficiency — using real
 x/y player coordinate data.
 
+**TO-DO: ADD MORE DATA SETS FROM BIG DATA CUP REPO AND ADJUST DATA PIPELINE FOR MORE RAW CSV FORMATS**
+
 ---
 
 ## What This Project Does
