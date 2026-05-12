@@ -1,0 +1,26 @@
+# Hockey Special Teams Spatial Analysis — Dependencies
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0       # ConvexHull, Voronoi, spatial math
+requests>=2.31.0
+
+# ML / clustering
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.17.0
+
+# Data
+pyarrow>=12.0.0     # parquet I/O
+
+# Utilities
+loguru>=0.7.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
