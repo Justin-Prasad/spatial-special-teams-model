@@ -44,35 +44,6 @@ Data includes:
 
 Download: `python pipeline.py --stage download`
 
----
-
-## Project Structure
-
-```
-hockey-spatial/
-├── data/
-│   ├── raw/              # Downloaded Big Data Cup CSVs
-│   └── processed/        # Cleaned, feature-engineered parquets
-├── analysis/
-│   ├── geometry.py       # Core spatial math (convex hull, Voronoi, distances)
-│   ├── formations.py     # Formation detection (clustering)
-│   ├── coverage.py       # Voronoi coverage gap analysis
-│   ├── collapse.py       # PK collapse speed / physics metrics
-│   └── passing.py        # Pass network spatial analysis
-├── models/
-│   └── formation_classifier.py  # Formation labeling model
-├── utils/
-│   ├── data_loader.py    # Big Data Cup ingestion
-│   ├── rink.py           # Rink geometry constants + drawing helpers
-│   └── viz.py            # Matplotlib / Plotly visualization helpers
-├── reports/
-│   └── generate_report.py
-├── tests/
-│   └── test_geometry.py
-├── pipeline.py
-├── config.py
-└── requirements.txt
-```
 
 ---
 
@@ -95,14 +66,3 @@ python pipeline.py --stage report
 ```
 
 ---
-
-## Resume Bullet
-
-**Hockey Special Teams Spatial Analysis | Python, scikit-learn, SciPy, SQL, Git**
-- Analyzed power play and penalty kill structure using Big Data Cup player tracking data,
-  applying Voronoi decomposition and convex hull geometry to quantify defensive coverage gaps
-- Built formation detection system using K-Means and DBSCAN clustering on geometric features
-  (inter-player distances, centroid spread, angular configuration) to identify recurring PP/PK structures
-- Modeled PK defensive collapse speed using physics-based metrics (centroid velocity, hull shrink rate)
-  to evaluate how quickly units respond to zone entries
-- Produced automated stakeholder reports communicating spatial findings to non-technical hockey ops staff
