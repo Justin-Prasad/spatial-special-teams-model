@@ -1,0 +1,14 @@
+Hockey Spatial Analysis Report
+================================
+
+Total events: 20393
+PP events: 2955
+PK events: 2943
+EV events: 20393
+
+Formation Clusters:
+- Total snapshots: 501
+- Unique clusters: 5
+
+Key Insight:
+- Power play formations show distinct spatial clustering patterns

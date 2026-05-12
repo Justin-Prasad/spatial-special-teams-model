@@ -1,7 +1,7 @@
 """
 analysis/collapse.py
 
-PK defensive collapse speed analysis.
+PK defensive collapse speed 
 
 After a PP zone entry, how quickly does the PK unit contract its shape?
 This is a pure physics / kinematics problem:
@@ -20,7 +20,7 @@ import logging
 import numpy as np
 import pandas as pd
 
-from analysis.geometry import (
+from geometry import (
     hull_area, centroid, angular_spread,
     compute_collapse_metrics, mean_nearest_neighbor_distance,
 )

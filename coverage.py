@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 from scipy.spatial.distance import cdist
 
-from analysis.geometry import (
+from geometry import (
     undefended_area, voronoi_areas, coverage_grid,
     centroid, hull_area, formation_features,
 )

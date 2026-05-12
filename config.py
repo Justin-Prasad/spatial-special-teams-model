@@ -17,14 +17,9 @@ for d in [DATA_RAW, DATA_PROC, MODELS_DIR, REPORT_DIR]:
 # ── Big Data Cup Data URLs (public GitHub releases) ───────────────────────────
 BDC_URLS = {
     # 2021 edition: Erie Otters (OHL) + women's Olympic/NCAA data
-    "bdc2021_events": (
-        "https://raw.githubusercontent.com/bigdatacup/Big-Data-Cup-2021/"
-        "main/hackathon_womens_data.csv"
-    ),
     "bdc2021_otters": (
-        "https://raw.githubusercontent.com/bigdatacup/Big-Data-Cup-2021/"
-        "main/hackathon_nwhl.csv"
-    ),
+        "https://raw.githubusercontent.com/bigdatacup/Big-Data-Cup-2021/main/hackathon_nwhl.csv"
+    )
 }
 
 # ── Rink Dimensions (feet) ─────────────────────────────────────────────────────

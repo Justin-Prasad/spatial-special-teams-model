@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 import joblib
 
-from analysis.geometry import formation_features, centroid, hull_area
+from geometry import formation_features, centroid, hull_area
 from config import (
     FORMATION_FEATURES, N_FORMATIONS,
     DBSCAN_EPS, DBSCAN_MIN_SAMPLES, MODELS_DIR,
